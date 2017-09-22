@@ -19,7 +19,7 @@ package object twitterbot {
     }
 
     def improveTitle(title: String) =
-      title.split(" ").init.mkString("How to ", " ", " Butt")
+      title.split(" ").init.mkString("How to ", " ", " you FOOL!")
 
     def get_image_stream(title: String) = {
       val url = "http://www.wikihow.com/%s".format(title.replace(" ", "-"))
